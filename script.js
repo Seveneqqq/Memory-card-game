@@ -175,7 +175,7 @@ const hideCards = () => {
 }
 
 
-
+//sprawdzenie czy dziala aktualizacja
 
 
 const shuffleArray = (array) => {
