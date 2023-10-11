@@ -21,11 +21,11 @@ const iconsTab =
 const colorsTab = [
     "green",
     "blue",
-    "cadetblue",//
+    "cadetblue",
     "red", 
-    "darkmagenta",//ten
+    "darkmagenta",
     "yellow",
-    "tomato",//
+    "tomato",
     "crimson",
     "brown",
     "violet",
