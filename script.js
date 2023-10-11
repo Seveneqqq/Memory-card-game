@@ -161,7 +161,7 @@ const settingCards = () => {
 
         }while(cardsTab.length != 0);
 
-        hideCards();
+        //hideCards();
 }
 
 

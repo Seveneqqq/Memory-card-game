@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     min-width: 50vw;
     min-height: 50vh;
