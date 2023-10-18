@@ -8,7 +8,7 @@ body{
     max-width: 100vh;
     margin:0;
     padding:0;
-    background-color: crimson;
+    background-color: black;
     
     
 }
@@ -17,11 +17,12 @@ body{
     position: relative;
     left: 33vw;
     top: 20vh;
-    border: 5px solid black;
+    border: 5px solid green;
     width: max-content;
     height: max-content;
     padding: 40px;
     border-radius: 20px;
+    box-shadow: 10px 10px 1500px 12px green;
 }
 span{
     font-size: 2vh;
@@ -39,9 +40,10 @@ h1{
 #gameInfo{
     float: left;
     margin:1vw;
+    margin-left: 3vw;
     padding:0;
     color:white;
-    font-size: 4vh;
+    font-size: 2.3rem;
     
 }
 #cardsBoard{    
@@ -54,17 +56,19 @@ h1{
     clear:both;
     display: flex;
     flex-wrap: wrap-reverse;
-        
+     
 }
 .cards{
     border:2px solid rgb(172, 172, 172);    
     transition: 0.4s;
     text-align:center;
     vertical-align: middle;
+       
 }
 .cards:hover{    
     border:5px solid rgb(255, 255, 255);
     transition: 0.15s;
+    box-shadow: 10px 30px 100px 10px rgb(255, 255, 255);
 }
 
 .images{
@@ -74,4 +78,24 @@ h1{
 .hidden{
     background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20211025/pngtree-royal-golden-blue-mandala-art-background-with-border-invitation-card-wedding-image_913579.png");
     background-size:cover;
+}
+
+#counterDiv{
+
+    width: 20vw;
+    height: 5vw;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+#counterP{
+    margin:1vw;
+    color: white;
+    font-size: 2.3rem;
+    display: flex;
+
+
 }

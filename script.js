@@ -57,6 +57,15 @@ const createGame = (sizeOfGame) => {
     game.innerText = `${sizeOfGame} x ${sizeOfGame}`;
     document.body.appendChild(game);
 
+    //stworzenie licznika
+
+    let counter = document.createElement("div");
+    counter.setAttribute("id","counterDiv");
+    document.body.appendChild(counter);
+    let pCounter = document.createElement("p");
+    pCounter.setAttribute("id","counterP");
+    counter.appendChild(pCounter);
+    pCounter.innerText = "Licznik par : 5";
     //Stworzenie planszy na podstawie ilosci sizeOfGame
 
     let cardsBoard = document.createElement("div");
@@ -161,7 +170,7 @@ const settingCards = () => {
 
         }while(cardsTab.length != 0);
 
-        //hideCards();
+        hideCards();
 }
 
 
