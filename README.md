@@ -1,4 +1,4 @@
 # Studies-projects
 University Of Silesia
 
-In progress
+Responsive cards game with local ranking
